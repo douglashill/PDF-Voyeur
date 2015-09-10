@@ -187,6 +187,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = CBA4E5B111EF306200756F64 /* Build configuration list for PBXProject "Voyeur" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
@@ -328,6 +330,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = Voyeur;
 				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
@@ -362,6 +365,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = Voyeur;
 				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
@@ -394,6 +398,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = Voyeur;
 				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
