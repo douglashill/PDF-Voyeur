@@ -122,7 +122,7 @@ parseFont(const char *key, CGPDFObjectRef object, void *info)
 
 - (NSMutableAttributedString *)info
 {
-    int k, count;
+    NSUInteger k, count;
     NSString *key;
     NSArray *array;
     NSAttributedString *fontString;

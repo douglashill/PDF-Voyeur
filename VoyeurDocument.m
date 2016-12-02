@@ -196,7 +196,7 @@ setCGPDFStringValueAsDate(NSTextField *field, CGPDFStringRef string)
 	[NSString stringWithFormat:@"%d.%d", majorVersion, minorVersion]];
     [encryptedField setStringValue:
 	CGPDFDocumentIsEncrypted(document) ? @"Yes" : @"No"];
-    [pagesField setIntValue:CGPDFDocumentGetNumberOfPages(document)];
+    [pagesField setIntegerValue:CGPDFDocumentGetNumberOfPages(document)];
 	
     infoDict = CGPDFDocumentGetInfo(document);
     if (CGPDFDictionaryGetString(infoDict, "Title", &string))
@@ -219,7 +219,7 @@ setCGPDFStringValueAsDate(NSTextField *field, CGPDFStringRef string)
 
 - (void)selectionChanged:(NSNotification *)notification
 {
-    int row;
+    NSInteger row;
     
     row = [[notification object] selectedRow];
     selectedNode = [[notification object] itemAtRow:row];
